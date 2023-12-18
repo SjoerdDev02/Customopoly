@@ -1,0 +1,49 @@
+.login_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dull_red);
+    border-radius: 20px;
+    padding: 2rem;
+    color: var(--white);
+}
+
+.login_container h1 {
+    margin-bottom: 1.5rem;
+}
+
+.login_container form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.login_container input {
+    background-color: transparent;
+    padding: 0.5rem;
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    color: var(--white);
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.login_container input::placeholder {
+    color: var(--white);
+}
+
+.login_container p {
+    margin-top: 1rem;
+}
+
+.login_container a {
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    transition: all .3s;
+}
+
+.login_container a:hover {
+    color: var(--dark_white);
+    border-bottom: 1px solid var(--dark_white);
+}
