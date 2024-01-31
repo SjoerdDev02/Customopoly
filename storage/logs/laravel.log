@@ -1945,3 +1945,333 @@
 #43 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/Users/gebruike...')
 #44 {main}
 "} 
+[2024-01-31 15:28:30] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Users/gebruiker/Desktop/projecten/Customopoly/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Uncaught ReflectionException: Class "translator" does not exist in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('translator')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('translator')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\Container\Container->make('translator', Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make('translator', Array)
+#6 Command line code(1): app('translator')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('translator')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\Container\Container->resolve('translator', Array, true)
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('translator', Array)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\Container\Container->make('translator', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make('translator', Array)
+#5 Command line code(1): app('translator')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"translator\" does not exist in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('translator')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build('translator')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\\Container\\Container->make('translator', Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make('translator', Array)
+#6 Command line code(1): app('translator')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [translator] does not exist. in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build('translator')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\\Container\\Container->make('translator', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make('translator', Array)
+#5 Command line code(1): app('translator')
+#6 {main}
+  thrown at /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Uncaught ReflectionException: Class "view" does not exist in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('view')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('view')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\Container\Container->make('view', Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('view')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\Container\Container->resolve('view', Array, true)
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('view', Array)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\Container\Container->make('view', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('view')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build('view')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\\Container\\Container->resolve('view', Array, true)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve('view', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\\Container\\Container->make('view', Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#6 Command line code(1): app('view')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build('view')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\\Container\\Container->resolve('view', Array, true)
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve('view', Array)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\\Container\\Container->make('view', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#5 Command line code(1): app('view')
+#6 {main}
+  thrown at /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Class "Laravel\Telescope\TelescopeApplicationServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Laravel\\Telescope\\TelescopeApplicationServiceProvider\" not found at /Users/gebruiker/Desktop/projecten/Customopoly/app/Providers/TelescopeServiceProvider.php:10)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(576): include()
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/Users/gebruike...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(206): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\T...')
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider('App\\\\Providers\\\\T...')
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(765): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Auth\Access\Gate] is not instantiable. in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:1126
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(921): Illuminate\Container\Container->notInstantiable('Illuminate\\Cont...')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('Illuminate\\Cont...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet('Illuminate\\Cont...')
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance('Illuminate\\Cont...')
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(349): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\Support\Facades\Facade::__callStatic('abilities', Array)
+#10 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Auth\\Access\\Gate] is not instantiable. in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:1126
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(921): Illuminate\\Container\\Container->notInstantiable('Illuminate\\\\Cont...')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build('Illuminate\\\\Cont...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\\Container\\Container->resolve('Illuminate\\\\Cont...', Array, true)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Cont...', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\\Container\\Container->make('Illuminate\\\\Cont...', Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\\Foundation\\Application->make('Illuminate\\\\Cont...')
+#6 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\\Container\\Container->offsetGet('Illuminate\\\\Cont...')
+#7 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\\Support\\Facades\\Facade::resolveFacadeInstance('Illuminate\\\\Cont...')
+#8 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(349): Illuminate\\Support\\Facades\\Facade::getFacadeRoot()
+#9 Command line code(1): Illuminate\\Support\\Facades\\Facade::__callStatic('abilities', Array)
+#10 {main}
+  thrown at /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:1126)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-31 15:28:46] local.ERROR: Uncaught ReflectionException: Class "blade.compiler" does not exist in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('blade.compiler')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('blade.compiler')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\Container\Container->make('blade.compiler', Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#6 Command line code(1): app('Illuminate\\View...')
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [blade.compiler] does not exist. in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('blade.compiler')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\Container\Container->make('blade.compiler', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#5 Command line code(1): app('Illuminate\\View...')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"blade.compiler\" does not exist in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('blade.compiler')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build('blade.compiler')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#5 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#6 Command line code(1): app('Illuminate\\\\View...')
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [blade.compiler] does not exist. in /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build('blade.compiler')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(957): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(942): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#5 Command line code(1): app('Illuminate\\\\View...')
+#6 {main}
+  thrown at /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Container/Container.php:914)
+[stacktrace]
+#0 {main}
+"} 
+[2024-01-31 15:29:22] local.ERROR: There are no commands defined in the "telescope" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"telescope\" namespace. at /Users/gebruiker/Desktop/projecten/Customopoly/vendor/symfony/console/Application.php:669)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/symfony/console/Application.php(720): Symfony\\Component\\Console\\Application->findNamespace('telescope')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find('telescope:unins...')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-01-31 15:29:34] local.ERROR: There are no commands defined in the "telescope" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"telescope\" namespace. at /Users/gebruiker/Desktop/projecten/Customopoly/vendor/symfony/console/Application.php:669)
+[stacktrace]
+#0 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/symfony/console/Application.php(720): Symfony\\Component\\Console\\Application->findNamespace('telescope')
+#1 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find('telescope:clear')
+#2 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/gebruiker/Desktop/projecten/Customopoly/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/gebruiker/Desktop/projecten/Customopoly/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
