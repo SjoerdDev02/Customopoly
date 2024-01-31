@@ -53,9 +53,9 @@ const Board = ({ game }) => {
                             name={data.name}
                             board_color={data.board_color}
                             pieces={data.piece_data}
-                            city={data.right_data[7].name}
+                            city={data.right_data[0].name}
                             base_price={data.base_price}
-                            color={data.city_colors[data.right_data[7].color]}
+                            color={data.city_colors[data.right_data[0].color - 1]}
                             onCustomizeClick={(table, index, data) => handleCustomizeClick(table, index, data)}
                             onUpdateGame={handleUpdateGame}
                         />
