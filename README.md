@@ -20,11 +20,12 @@ Volg onderstaande stappen om het project lokaal te installeren:
 5. Vul je eigen gebruikersnaam en wachtwoord in bij de `USERNAME EN PASSWORD` in line 15 en 16 van .env
 6. Voer `php artisan key:generate` in de terminal uit
 7. Start `XAMPP, WAMP of MAMP` op
-8. Stel de `MySQL port` in op `3306`
-9. Voer `php artisan migrate` in de terminal uit
-10. Voer `php artisan serve` in de terminal uit
-11. Voer `npm run dev` in een nieuwe terminal uit
-12. Ga naar onderstaande url
+8. Stel de `MySQL port` in op `3306` en de root op folder genaamd `public` in dit project
+9. Voer `php artisan migrate:fresh --seed` in de terminal uit
+10. Voer `php artisan storage:link` in de terminal uit
+11. Voer `php artisan serve` in de terminal uit
+12. Voer `npm run dev` in een nieuwe terminal uit
+13. Ga naar onderstaande url
 
 Controleer de terminal waar je `php artisan serve` hebt uitgevoerd voor de port. Ik ga in dit voorbeeld uit van port 8000.
 Url: [http://localhost:8000](http://localhost:8000)
