@@ -1,0 +1,48 @@
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square_content {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.square_content h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: var(--white);
+    padding: 2rem;
+}
+
+.square_content h1 > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square_content > div {
+    width: 35%;
+    border: 1px dotted var(--black);
+    padding: 0.5rem;
+}
+
+.square_content > div > div {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square_content img {
+    width: 50%;
+}

@@ -1,0 +1,53 @@
+.auth_form {
+    width: 80%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.auth_form h1 {
+    text-align: center;
+}
+
+.form_group {
+    margin-top: 1rem;
+}
+
+.form_group input {
+    width: 100%;
+}
+
+.login_remember {
+    margin-top: .5rem;
+}
+
+.login_remember > label {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.login_remember span {
+    font-size: 0.8rem;
+}
+
+.auth_cta {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.auth_cta a {
+    font-size: 0.75rem;
+    text-decoration: underline;
+}
+
+.auth_cta a:hover {
+    color: gray;
+}
+
+@media screen and (min-width: 768px) {
+
+}

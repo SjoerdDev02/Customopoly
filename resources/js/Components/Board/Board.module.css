@@ -1,0 +1,28 @@
+.customizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.board {
+    height: 85vh;
+    width: 85vh;
+    display: grid;
+    grid-template-areas: 
+    "corner_three corner_three card_t_one card_t_two card_t_three card_t_four card_t_five card_t_six card_t_seven card_t_eight card_t_nine corner_four corner_four"
+    "corner_three corner_three card_t_one card_t_two card_t_three card_t_four card_t_five card_t_six card_t_seven card_t_eight card_t_nine corner_four corner_four"
+    "card_l_nine card_l_nine square square square square square square square square square card_r_one card_r_one"
+    "card_l_eight card_l_eight square square square square square square square square square card_r_two card_r_two"
+    "card_l_seven card_l_seven square square square square square square square square square card_r_three card_r_three"
+    "card_l_six card_l_six square square square square square square square square square card_r_four card_r_four"
+    "card_l_five card_l_five square square square square square square square square square card_r_five card_r_five"
+    "card_l_four card_l_four square square square square square square square square square card_r_six card_r_six"
+    "card_l_three card_l_three square square square square square square square square square card_r_seven card_r_seven"
+    "card_l_two card_l_two square square square square square square square square square card_r_eight card_r_eight"
+    "card_l_one card_l_one square square square square square square square square square card_r_nine card_r_nine"
+    "corner_two corner_two card_b_nine card_b_eight card_b_seven card_b_six card_b_five card_b_four card_b_three card_b_two card_b_one corner_one corner_one"
+    "corner_two corner_two card_b_nine card_b_eight card_b_seven card_b_six card_b_five card_b_four card_b_three card_b_two card_b_one corner_one corner_one";
+    grid-template-columns: repeat(13, calc(85vh / 13));
+    grid-template-rows: repeat(13, calc(85vh / 13));
+}

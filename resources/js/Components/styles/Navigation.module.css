@@ -1,0 +1,39 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation > div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav_item {
+    color: var(--bright_yellow);
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 var(--bright_yellow);
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav_item:hover {
+    box-shadow: inset 100px 0 0 0 var(--bright_yellow);
+    color: var(--bright_blue);
+}
+
+@media screen and (min-width: 768px) {
+    .navigation {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,21 @@
+.layout {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bright_red);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.children {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}

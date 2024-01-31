@@ -1,0 +1,56 @@
+.corner {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.content > h6 {
+    font-size: 0.75rem;
+}
+
+.content img:not(.prison img) {
+    width: 50%;
+}
+
+.prison {
+    width: 50%;
+    position: relative;
+    border: 1px solid var(--black);
+}
+
+.prison > div {
+    height: 100%;
+    width: 2px;
+    background-color: var(--black);
+    position: absolute;
+}
+
+.prison > div:first-of-type {
+    left: 10%;
+}
+
+.prison > div:nth-of-type(2) {
+    left: 30%;
+}
+
+.prison > div:nth-of-type(3) {
+    left: 50%;
+}
+
+.prison > div:nth-of-type(4) {
+    right: 30%;
+}
+
+.prison > div:last-of-type {
+    right: 10%;
+}
