@@ -29,7 +29,7 @@ const GamesIndex = ({ auth, games }) => {
                   <td><h2>{game.name}</h2></td>
                   <td><h2>{game.created_at.split('T')[0]}</h2></td>
                   <td>
-                    <button className='btn' onClick={() => handlePrint(game.id)}>
+                    <button className={`btn ${styles.print_btn}`} onClick={() => handlePrint(game.id)}>
                         Print Game
                     </button>
                   </td>
@@ -37,8 +37,7 @@ const GamesIndex = ({ auth, games }) => {
                     <Link className='btn' href={route('games.edit', { id: game.id })} as='button'>
                       <img src='/icons/edit_icon.svg' alt='Edit icon' />
                     </Link>
-                  </td>
-                  <td>
+
                     <Link className='btn' href={route('games.delete', { id: game.id })} method='delete' as='button'>
                       <img src='/icons/delete_icon.svg' alt='Delete icon' />
                     </Link>

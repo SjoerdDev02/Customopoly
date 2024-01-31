@@ -8,10 +8,14 @@ export default function Welcome() {
         <GuestLayout>
             <Head title="Discover" />
             <section className={styles.welcome}>
-                <h1>Customopoly</h1>
-                <h2>Create your own monopoly game in minutes</h2>
+                <div>
+                    <div>
+                        <h1>Design Your Personalized Monopoly Game in Minutes</h1>
+                        <h2>Customopoly empowers you to craft your unique Monopoly game, complete with custom street names, images, colors, pawns, and more.</h2>
+                    </div>
+                    <Link className='btn' href={route('register')} as='button'>Start Now</Link>
+                </div>
                 <Slider />
-                <Link className='btn' href={route('register')} as='button'>Start Now</Link>
             </section>
         </GuestLayout>
     );

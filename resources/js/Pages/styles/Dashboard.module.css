@@ -3,6 +3,24 @@
     height: 100%;
 }
 
+.dashboard tr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
 .dashboard_games td {
     padding: 0.5rem;
+}
+
+.dashboard td:last-child {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .dashboard tr {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

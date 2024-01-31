@@ -7,7 +7,7 @@ export default function Guest({ children }) {
         <div className={styles.layout}>
             <Navigation />
 
-            <div className={styles.children}>{children}</div>
+            <main role='main' className={styles.children}>{children}</main>
         </div>
     );
 }

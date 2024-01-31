@@ -11,12 +11,12 @@ const Slider = () => {
     };
 
     return (
-        <div>
+        <article>
             <ReactBeforeSliderComponent
                 firstImage={FIRST_IMAGE}
                 secondImage={SECOND_IMAGE}
             />
-        </div>
+        </article>
     );
 };
 

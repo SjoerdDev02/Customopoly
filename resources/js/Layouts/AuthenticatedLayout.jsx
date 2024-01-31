@@ -7,7 +7,7 @@ export default function Authenticated({ children, auth }) {
         <div className={styles.layout}>
           <Navigation user={auth.user} />
     
-          <div className={styles.children}>{children}</div>
+          <main role='main' className={styles.children}>{children}</main>
         </div>
       );
 }

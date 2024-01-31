@@ -1,28 +1,70 @@
 .welcome {
     height: 80vh;
     width: 100vw;
-    margin-top: 2rem;
+    margin-top: 5rem;
     padding: 2rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.welcome h1, .welcome h2 {
-    color: var(--bright_yellow);
+    gap: 1rem;
 }
 
 .welcome h1 {
-    font-size: 2rem;
+    display: none;
+    font-size: 1.8rem;
+    color: var(--bright_yellow);
 }
 
 .welcome h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--dull_yellow);
 }
 
-.welcome > div {
-    width: 50%;
+.welcome > div > button {
+    margin-top: 1rem;
+}
+
+.welcome > div > div {
+    text-align: center;
+}
+
+.welcome > article {
+    width: 95%;
     margin: 1rem 0 0.5rem 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .welcome h1 {
+        display: inline-block;
+    }
+
+    .welcome {
+        margin-top: 0;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .welcome > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+
+    .welcome > div > div {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .welcome > article {
+        margin: 0;
+    }    
 }
